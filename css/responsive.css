@@ -1,0 +1,284 @@
+﻿
+
+@media (max-width:1000px)
+
+{
+ 
+}
+
+@media (max-width:920px)
+
+{
+ 
+}
+
+@media (max-width:768px)
+{
+    .header-social
+    {
+         display:none;
+    }
+   .input-width-33
+   {
+       width:94%; margin:0 15px;
+   }
+   .mr-l--15
+   {
+       margin-left:15px;
+   }
+ 
+ 
+ .mr-l-r---15
+ {
+     margin:0;
+ }
+ 
+ .payment
+ {
+     padding-top:10px; text-align:left;
+ }
+ 
+ #terms ul.term-list
+ {
+     margin:0;
+ }
+ 
+ .icon
+    {
+       margin:30px 10px;
+    }
+  
+ .icon .Name
+ {
+     text-align:left;
+ }
+ 
+  .form-filter input[type='text']
+ {
+     width:100%;
+ }
+ .form-filter span
+ {
+     text-align:left;
+ }
+ .form-filter a
+ {
+     top:30px;
+ }
+ 
+ .download-app-block
+    {
+        text-align:left;
+    }
+    
+    .container-contact100
+    {
+        border-right:0;
+        border-bottom:2px solid #ccc;
+        
+    }
+    
+    .or-vertical
+    {
+         top:auto;
+         bottom:-20px;
+         left:50%;
+         
+    }
+    
+    .download-app-ico
+    {
+        position:relative;
+        margin:15px 0;
+    }
+      .download-app-ico img
+      {
+          height:50px;
+          width:150px;
+      }
+      
+      
+       .ni-h-singlr-items
+        {
+            display:block;
+        }
+        
+        .ni-h-singlr-items figure
+        {
+            display:block;
+            transform:skewX(0deg);
+        }
+        .ni-h-singlr-items figure img
+        {
+            width:100%;
+        }
+        
+        .
+        .ni-h-item-detail
+        {
+            display:flex;
+        }
+        .ni-h-item-detail-btn
+        {
+            display:block;
+           
+        }
+        .best-deal-btn
+        {
+            margin:0px 10px 10px 10px;
+        }
+        
+        .single-portfolio 
+        {
+            width:230px;
+        }
+        
+}
+
+
+@media (max-width:500px)
+{
+  aside .sub-heading
+ {
+     padding:20px 100px;
+ }
+ 
+ .reward 
+    {
+         text-align:center;
+         margin-bottom:10px;
+    }
+    
+    #bottom-menu span a
+    {
+         font-size:18px;
+    }
+    .compare
+    {
+         text-align:center;
+         margin-bottom:10px;
+    }
+    .upload-pres
+    {
+        text-align:center;
+         margin-bottom:10px;
+    }
+    
+    #test
+    {
+            margin-left: -200px;
+            width:400px;
+    }
+    
+    
+    .icon
+    {
+       margin:30px 10px;
+    }
+  
+ .icon .Name
+ {
+     text-align:left;
+ }
+ 
+ .recent-post-side .date
+ {
+     top:236px;
+ }
+ .owl-carousel .owl-stage-outer
+ {
+     padding:0 15px;
+ }
+ .icon-block
+ {
+     margin-left:0;
+ }
+ 
+ .form-filter input[type='text']
+ {
+     width:100%;
+ }
+ .form-filter span
+ {
+     text-align:left;
+ }
+ .form-filter a
+ {
+     top:30px;
+ }
+ 
+ .comment-box .user-photo {
+    position: absolute;
+    top: 55px;
+    left: -40px;
+    height: 105px;
+    width: 105px;
+    
+}
+.comment-box .user-photo img {
+    height: 90px;
+    width: 90px;
+}
+
+.blog .col-md-12
+{
+    margin:0;
+}
+
+.blog
+{
+    padding-right:0;
+}
+.blog img
+{
+    width:100%;
+}
+.blog .details
+{
+      width:100%;
+      padding:10px;
+}
+.mr-l-r--10
+{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/*login styles*/
+
+.session .left
+{
+    display:none;
+}
+.session .login
+{
+    width:100%;
+}
+.popup
+{
+    margin:20px 0;
+}
+
+.download-app-block
+    {
+        text-align:left;
+    }
+    
+    .single-portfolio 
+    {
+        width:100%;
+    }
+    
+    .pd-l-r-xs-0
+    {
+        padding-left:0;
+        padding-right:0;
+    }
+    .pd-r-xs-0
+    {
+        padding-right:0;
+    }
+}
+ 
+
+

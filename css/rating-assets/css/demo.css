@@ -1,0 +1,27 @@
+
+
+.live-rating {
+  font-size: 22px;
+  margin-left: 20px;
+  color: #333;
+  top: -5px;
+  position: relative;
+  color:#0083d1;
+  font-weight:500;
+}
+
+pre.prettyprint {
+    display: block;
+    margin: 20px 0;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 20px;
+    background: #EEEEEE;
+    border: 0;
+}
+
+.y-rating
+{
+    font-weight:400;
+    
+}

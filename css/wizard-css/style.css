@@ -1,0 +1,691 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+
+/*form styles*/
+#msform {
+	
+	margin: 30px auto 50px;
+	text-align: center;
+	position: relative;
+	 border:1px solid #ccc;
+	 padding:20px;
+	 background:#fff;
+	 
+}
+#msform fieldset {
+	
+	border: 0 none;
+	border-radius: 3px;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	/*stacking fieldsets above each other*/
+	position: relative;
+	text-align:left;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input[type='text'] {
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	font-family: montserrat;
+	color: #2C3E50;
+	
+}
+/*buttons*/
+#msform .action-button {
+	
+	background: #0083d1;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 25px;
+	margin: 10px 5px;
+	 float:left;
+	 border-radius:30px;
+	 text-transform:uppercase;
+	 font-size:12px;
+	 font-weight:600;
+	
+}
+#msform .action-button:hover,#msform .action-button:focus {
+	 outline:0;
+	 border:0;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 0px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	font-size: 14px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	font-weight:500;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	line-height: 30px;
+	display: block;
+	font-size: 14px;
+	color: #333;
+	background: #f6f6f6;
+	border-radius: 50%;
+	margin: 0 auto 5px auto;
+	font-weight:600;
+
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 4px;
+	background: #f6f6f6;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -2; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #0083d1;
+	color: white;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 15px 12px ;
+  cursor: pointer; 
+  width:100%;
+  background:#fff;
+  color:#333;
+  text-transform:uppercase;
+  font-size:13px;
+  box-shadow: 0 1px 1px #ccc;
+  text-align: center
+
+}
+
+.custom-file-upload i
+{
+
+ font-size:20px;
+    color:#0083d1;
+    height:14px;
+}
+
+.custom-file-upload .icons {
+   
+    height: 32px;
+    width: 100%;
+    display: block;
+    text-align:center;
+    margin:5px 0;
+   
+}
+.custom-file-upload .icons path
+{
+   fill: #0083d1;
+}
+
+
+.custom-file-upload .icons svg {
+    height: 32px;
+    height: 32px;
+ 
+    
+ 
+}
+
+.guide
+{
+    display:block;
+  box-shadow: 0 1px 1px #ccc;
+    position:relative;
+    border:1px solid #ccc;
+    text-align:left;
+    padding:10px;
+}
+.guide h3
+{
+    font-size:14px;
+}
+.guide h3 span
+{
+    display:inline-block;
+    float:right;
+    color:#0083d1;
+    font-size:12px;
+    text-transform:uppercase;
+}
+
+.guide ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-left:20px;
+    margin-top:10px;
+}
+.guide ul li
+{
+    line-height:1.7em;
+    font-size:12px;
+    list-style-type:circle;
+    font-weight:400;
+    color:#9b9a9a;
+}
+
+.upload-pres-list
+{
+    display:none;
+    margin:20px 0;
+}
+.upload-pres-list ul
+{
+    position:relative;
+    display:block;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.upload-pres-list ul li
+{
+    display:inline-block;
+    margin-bottom:8px;
+    text-align:left;
+    width:24.1%;
+    margin-right:5px;
+}
+
+
+
+
+.upload-pres-list ul li a img
+{
+    width:100%;
+    border:1px solid #ddd;
+    padding:5px;
+}
+
+@media(max-width:768px)
+{
+    .upload-pres-list ul li
+    {
+        width:100%;
+        display:block;
+    }
+}
+
+ .cancle
+{
+    position:relative;
+    display:inline-block;
+    float:left;
+    margin-right:10px;
+    padding:4px 15px;
+    color:#0083d1;
+    cursor:pointer;
+    font-size:16px; margin-top:12px;
+    display:none;
+}
+
+.done
+{
+    display:none;
+    background:#0083d1;
+    color:#fff;
+}
+
+.upload-pres
+{
+    
+    width:130px;
+    z-index:2;
+    padding:5px 10px;
+    margin-top:-38px;
+}
+
+.upload-pres .compare-title
+{
+    display:none;
+    position:absolute;
+    top:-20px;
+    left:3px;
+    padding:2px 5px;
+    background:#88d424;
+    font-size:11px;
+    line-height:1.3em;
+    width:50px;
+    text-transform:lowercase;
+    color:#fff;
+    
+}
+.nirog-product-main:hover .upload-pres .compare-title
+{
+   display:block;  
+   
+}
+.upload-pres .compare-title:before
+{
+position: absolute;
+    bottom: -6px;
+    left: 20%;
+    content: '';
+    width: 15px;
+    height: 7.5px;
+    border-top: solid 7.5px #88d424;
+    border-left: solid 7.5px transparent;
+    border-right: solid 7.5px transparent;
+    z-index: 2;
+}
+
+/* Remove default checkbox */
+.upload-pres [type="checkbox"]:not(:checked),
+.upload-pres [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.upload-pres [type="checkbox"]:not(:checked) + label,
+.upload-pres [type="checkbox"]:checked + label {  
+  position: relative;
+  overflow: hidden;
+  padding-left: 22px;
+  cursor: pointer;
+  display: inline-block;
+  height: 25px;
+  padding-top:5px;
+  
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+  font-size:12px;
+  font-weight:500;
+}
+
+/* checkbox aspect */
+.upload-pres [type="checkbox"] + label:before,
+.upload-pres [type="checkbox"] + label:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/* Unchecked styles */
+.upload-pres [type="checkbox"]:not(:checked) + label:before {
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 2px solid #0085d2;
+  top:5px;
+}
+.upload-pres [type="checkbox"]:not(:checked) + label:after {
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 2px solid #0085d2;
+  z-index: 0;
+  top:5px;
+  
+}
+/* Checked styles */
+.upload-pres [type="checkbox"]:checked + label:before {
+  top: 2px;
+  width: 6px; height: 12px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotateZ(37deg);
+  transform: rotateZ(37deg);
+
+  -webkit-transform-origin: 20% 40%;
+  transform-origin: 100% 100%;
+  top:5px;
+  left:2px;
+}
+.upload-pres [type="checkbox"]:checked + label:after {
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 2px solid #0085d2;
+  z-index: 0;
+  top:5px;
+  background:#0085d2;
+}
+/* disabled checkbox */
+.upload-pres [type="checkbox"]:disabled:not(:checked) + label:before,
+.upload-pres [type="checkbox"]:disabled:checked + label:before {
+  top: 0;
+  box-shadow: none;
+  background-color: #444;
+  width: 20px; height: 20px;
+  border: 3px solid #444;
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+.upload-pres [type="checkbox"]:disabled + label {
+  color: #555;
+}
+.upload-pres [type="checkbox"]:disabled:not(:checked) + label:hover:before {
+  border-color: #0085d2;
+}
+
+.validate-rx
+{
+    display:none;
+    margin:10px 0;
+}
+
+#imgfile
+{
+    display:none;
+     margin:10px 0;
+     float:left;
+}
+
+#readless
+{
+    display:none; cursor:pointer;
+}
+
+#showmore
+{
+    cursor:pointer;
+}
+.d-block
+{
+    display:block;
+}
+.d-none
+{
+    display:none;
+}
+
+.selected-pescription-block
+{
+     margin:0;
+       display:none;
+}
+
+.single-prescription
+{
+    position:relative;
+    display:block;
+  
+}
+.single-prescription a.prescription-delete
+{
+    position:absolute;
+    top:10px;
+    left:0px;
+   
+}
+
+
+.specify-test-styles
+{  
+     position:relative;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border:1px solid #ddd;
+    
+}
+
+
+.specify-test-styles-single
+{
+    
+    position:relative;
+    display:block;
+     font-size:14px;
+ 
+}
+
+.specify-test-styles-single .nirogindia-radio-main
+{
+    padding-left:15px;
+}
+
+/*acoordian */
+
+.pres-accordion {
+
+  color: #333;
+  cursor: pointer;
+  padding: 0px 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  font-weight:500;
+
+}
+
+
+
+.pres-panel {
+  padding: 10px 0px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-top:0;
+  font-size:12px;
+
+}
+
+.pres-accordion
+{
+    display:block;
+}
+.pres-accordion:after {
+  content: '\f107';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size:18px;
+  font-family:FontAwesome;
+}
+
+.pres-accordion.active:after {
+  content: '\f106';
+}
+
+
+/*Delhivery Address Styles*/
+
+/*Delhivery Address Styles*/
+.delhiery-heading
+{
+     display:flex;
+     align-content:space-between;
+   
+      margin:0px 0 5px;
+}
+.delhiery-heading h3
+{
+    width:94%;
+}
+
+
+.theme-text-bold
+{
+    font-weight:600;
+    color:#0083d1;
+}
+.theme-text-light
+{
+  
+    color:#0083d1;
+}
+
+.text-light-gray-bold
+{
+    font-weight:600;
+    color:#9b9999;
+}
+.text-light-gray
+{
+  
+  color:#9b9999;
+}
+
+
+.side-box
+{
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+}
+.bg-gray
+{
+    background:#f6f6f6;
+}
+.bg-white
+{
+    background:#fff;
+}
+
+.delhivery-address-details span
+{
+    display:block;
+}
+
+.delhivery-address-details svg
+{
+    fill:#0083d1;
+}
+
+.shiping-message
+{
+    display:block;
+    text-align:left;
+    font-size:12px;
+    font-weight:500;
+    
+}
+
+.ni-balance
+{
+    position:relative;
+}
+.ni-balance span.balance
+{
+    display:block;
+    position:absolute;
+    bottom:-2px;
+    left:30px;
+}
+
+.ni-coupon
+{
+    position:relative;
+    width:100%;
+}
+
+
+.offer-text
+{
+    color:#61e361;
+}
+
+
+.ni-coupon span.calc-ppercent-off
+{
+    display:block;
+    position:absolute;
+    right:0;
+    bottom:7px;
+    font-weight:600;
+  
+}
+
+.enlarge-image
+{
+    margin: 0 0 10px;
+}
+
+.grid-image img
+{
+    margin-bottom:10px;
+}
+
+
+.show-block
+{
+    display:none;
+}
+.edit-address-section
+{
+    padding:10px;  
+    display:block;
+    display:block;
+    border:1px solid #ddd;
+}
+.edit-address-section input[type='text']
+{
+    height:30px;
+    background:#fff;
+    border-radius:0px;
+    font-size:12px;
+    
+}
+
+.edit-address-section textarea
+{
+    height:100px;
+    background:#fff;
+    border-radius:0px;
+     font-size:12px;
+    padding:0;
+    padding:10px;
+    outline:0;
+    width:100%;
+    color:#777777;
+    border:1px solid #ddd;
+    margin-bottom:0;
+}
+
+.cancle-box-btn
+{
+    display:inline-block;
+    padding:0 20px ;
+    color:#0085d2;
+    font-weight:500;
+    cursor:pointer;
+    font-size:14px;
+}

@@ -1,0 +1,1544 @@
+﻿<!DOCTYPE html>
+<html lang="utf-8">
+   <head>
+      <meta charset="utf-8">
+      <title>Hospital Lab list</title>
+      <meta content="" name="description"/>
+      <meta content="" name="author"/>
+      <meta content="" name="keywords"/>
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+      <!-- favicon -->
+      <link href="img/favicon.gif" rel="icon" sizes="32x21" title="Nirog India" type="image/png"/>
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="css/main.css" rel="stylesheet" type="text/css"/>
+      <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+      <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css" />
+      <link href="css/woco-accordion.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/menu.css" rel="stylesheet" type="text/css" />
+      <style>
+         ul.filter-by
+         {
+         margin-top:-10px;
+         margin-bottom:5px;
+         }
+         .select-items
+         {
+         width:110px;
+         left:0;
+         }
+         .custom-select1 select option
+         {
+         position:relative;
+         }
+         .custom-select1 select option.Location:before
+         {
+         position:absolute;
+         right:5px;
+         top:0;
+         content:'/f001';
+         font-family:fontAwesome;
+         height:30px;
+         width:30px;
+         }
+      </style>
+   </head>
+   <body>
+   <!--content wrapper-->
+      <div class="content-wrapper">
+      <!---top bar--->
+      <div class="haeder-main">
+         <div  class="container-fluid">
+            <div class="row">
+               <div class="col-md-8 col-sm-12 col-xs-12">
+                  <div class="header-top text-right">
+                     <ul>
+                        <li> 
+                           <img src="images/icon/call-icon.png" /> +91-898 308 9335
+                        </li>
+                        <li> +91-898 308 9335</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-12 col-xs-12" >
+                  <div class="header-social">
+                     <ul>
+                        <li><a href="#"><i  class="fa-facebook fa"></i></a></li>
+                        <li><a href="#"><i  class="fa-twitter fa"></i></a></li>
+                        <li><a href="#"><i  class="fa-youtube fa"></i></a></li>
+                        <li><a href="#"><i  class="fa-pinterest fa"></i></a></li>
+                        <li><a href="#"><i  class="fa-instagram fa"></i></a></li>
+                        <li>
+                           <div class="language">
+                              <select>
+                                 <option>En</option>
+                                 <option>Hn</option>
+                              </select>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <!---menu bar--->
+      <section class="menu-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-2 col-sm-6">
+                  <div class="logo">
+                     <a href="default.html"><img src="images/logo.png" alt="logo" title="Nirog India" /></a>
+                  </div>
+               </div>
+               <div class="col-md-7 col-sm-12">
+                  <div class="menu-container">
+                     <div class="menu">
+                        <ul>
+                           <li><a href="#">Featured</a></li>
+                           <li>
+                              <a href="#">Fitness &amp; Suppliment <i class="fa-angle-down fa"></i></a>
+                              <ul>
+                                 <li>
+                                    <a href="" class="bold">Protien Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Whey Protien</a></li>
+                                       <li><a href="#">Essential Protien</a></li>
+                                       <li><a href="#">Mass Gainer</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="" class="bold">Vitamens Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Multi Vitamens</a></li>
+                                       <li><a href="#">Vitamens A-Z</a></li>
+                                       <li><a href="#">Calcium &amp; Minerals</a></li>
+                                    </ul>
+                                 </li>
+                                 <div class="clearfix"></div>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li><a href="#" class="bold">Health Care Devices </a></li>
+                           <li>
+                              <a href="#">Ayurveda <i class="fa-angle-down fa"></i></a>
+                              <ul>
+                                 <li>
+                                    <a href="#" class="bold">Protien Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Whey Protien</a></li>
+                                       <li><a href="#">Essential Protien</a></li>
+                                       <li><a href="#">Mass Gainer</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="" class="bold">Vitamens Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Multi Vitamens</a></li>
+                                       <li><a href="#">Vitamens A-Z</a></li>
+                                       <li><a href="#">Calcium &amp; Minerals</a></li>
+                                    </ul>
+                                 </li>
+                                 <div class="clearfix"></div>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#">Homeopathy <i class="fa-angle-down fa"></i></a>
+                              <ul class="right">
+                                 <li>
+                                    <a href="#" class="bold">Protien Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Whey Protien</a></li>
+                                       <li><a href="#">Essential Protien</a></li>
+                                       <li><a href="#">Mass Gainer</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="" class="bold">Vitamens Suppliment</a>
+                                    <ul>
+                                       <li><a href="#">Multi Vitamens</a></li>
+                                       <li><a href="#">Vitamens A-Z</a></li>
+                                       <li><a href="#">Calcium &amp; Minerals</a></li>
+                                    </ul>
+                                 </li>
+                                 <div class="clearfix"></div>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="bold">Study</a>
+                                    <ul>
+                                       <li><a href="#">Undergraduate</a></li>
+                                       <li><a href="#">Masters</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="row">
+                     <div class="col-md-4 col-sm-4  col-xs-4">
+                        <div class="right-cart-block">
+                           <ul class="cart-list">
+                              <li><a href="" class="product-cart">
+                                 <span class="cart-no">2</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="right-cart-block">
+                           <ul class="cart-list">
+                              <li><a href="" class="login">Login</a></li>
+                              <!--<li><a href="" class="signup">Signup</a></li>-->
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="right-cart-block">
+                           <ul class="cart-list">
+                              <!-- <li><a href="" class="login">Login</a></li>-->
+                              <li><a href="" class="signup">Signup</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!---search box with upload prescrption-->
+      <section id="bottom-menu">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9 col-sm-6 col-xs-12">
+                  <form>
+                     <div class="search-lab-box">
+                        <div class="search-input">
+                           <input type="text" name="" value="Search Labs, Hospitals, Gym etc." placeHolder="Search Labs, Hospitals, Gym etc." />
+                           <a href="#"><img src="images/icon/search-magnifier.png" /></a>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-3 col-sm-4 col-xs-12">
+                  <div class="upload-pres pt-2">
+                     <span class="font-blue  font-blod"><a href="#"><img src="images/icon/upload-prescription-online.png" /> UPLOAD PRESCRIPTION</a></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!---content section--->
+      <section id="content-block" class="mt-4">
+         <div class="container">
+         <div class="row">
+            <div class="col-md-3">
+               <aside>
+                  <div class="sub-heading1">
+                     <h4>Quick Links</h4>
+                  </div>
+                  <div class="related-links">
+                     <ul>
+                        <li><a href="#">Hospital</a></li>
+                        <li><a href="#">labs</a></li>
+                        <li><a href="#">Gym</a></li>
+                        <li><a href="#">Hospital</a></li>
+                        <li><a href="#">labs</a></li>
+                        <li><a href="#">Gym</a></li>
+                     </ul>
+                  </div>
+               </aside>
+               <aside>
+                  <div class="sub-heading1">
+                     <h4>Labs in your area</h4>
+                  </div>
+                  <div class="col-md-12">
+                     <!--<div class="form-group search-test">
+                        <input type="text" name="" value="" placeholder="Search Thyrocare" class="form-control">
+                         <a href="#"><i class="fa-search fa"></i></a>
+                        </div>-->
+                  </div>
+                  <ul class="checkbox-list-side scroll">
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                      <li>
+                     <label class="container-checkbox mb-0">Labs near BHU/Lanka
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pahariya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Pandeypur
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Assi
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lahurabeer
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Maldahiya
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                     <li>
+                     <label class="container-checkbox mb-0">Labs near Lohata
+                      <input type="checkbox">
+                      <span class="nirog-checkbox nirog-checkbox-small"></span>
+                      </label>
+                    </li>
+
+                  </ul>
+               </aside>
+               <aside style="border:0;">
+                  <div class="ecommerce">
+                     <div class="heading-block font-blod">
+                        <h3>E-commerce</h3>
+                     </div>
+                     <div id="ecommerce-product" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img src="images/free-blood-pressure-test-on-nirog-india.jpg" class="img-fluid" width="100%" />
+                        </div>
+                        <div class="item">
+                           <img src="images/free-blood-pressure-test-on-nirog-india.jpg" class="img-fluid" width="100%" />
+                        </div>
+                     </div>
+                  </div>
+               </aside>
+            </div>
+            <div class="col-md-6">
+               <div class="mr-l-r--10">
+                  <ul class="filter-by">
+                     <li>
+                        <div class="custom-select1">
+                           <select>
+                              <option value="0">Sort Result By</option>
+                              <option value="1">Top Result</option>
+                              <option value="2">Popularity</option>
+                              <option value="3">Location</option>
+                              <option value="4">Distance</option>
+                              <option value="5">Rating</option>
+                              <option value="6">Best Deal</option>
+                           </select>
+                     </li>
+                  </ul>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/paras-hospital.jpg" /></a> 
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">Paras hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur Varanas..  </span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="chkcompare" type="checkbox" class="coupon_question">
+                  <label for="chkcompare">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/chmc-hospital.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">CHMC hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox4" type="checkbox" class="coupon_question">
+                  <label for="Checkbox4">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/hospital1.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">Subham hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox5" type="checkbox" class="coupon_question">
+                  <label for="Checkbox5">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/christian-hospital.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">Christian hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox7" type="checkbox" class="coupon_question">
+                  <label for="Checkbox7">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/aj-hospital.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">AJ hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox8" type="checkbox" class="coupon_question">
+                  <label for="Checkbox8">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/medical-center-hospital.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">Medical center hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox9" type="checkbox" class="coupon_question">
+                  <label for="Checkbox9">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="ni-h-singlr-items">
+                  <figure>
+                  <a href="#"><img src="images/glx-hospital.jpg" /></a>
+                  </figure>
+                  <div class="ni-h-item-detail">
+                  <h3> <a href="#">Galaxy hospital</a></h3>
+                  <div class="lab-rating">
+                  <ul>
+                  <li class="active"></li>
+                  <li class="active"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  <li class="unactive"></li>
+                  </ul>
+                  <span>4.5/5.0</span>
+                  </div>
+                  <div class="ni-lab-place-details">
+                  <span> <img src="images/icon/hos-locator.png" /> Ashapur</span>
+                  <span> <img src="images/icon/phone-call.png" /> +91-898 308 9335</span>
+                  <span> <img src="images/icon/lab-flask.png" /> Labs</span>
+                  </div>
+                  </div>
+                  <div class="ni-h-item-detail-btn">
+                  <input type="submit" name="" value="Best Deal" class="best-deal-btn" />
+                  <div class="checkbox mt-0 pl-4">
+                  <input id="Checkbox10" type="checkbox" class="coupon_question">
+                  <label for="Checkbox10">Compare</label>
+                  </div>
+                  </div>
+                  </div>
+                    <div class="pagination-bock">
+                        <ul class="pagination  mt-0">
+                           <li class="disabled"><a href="#">«</a></li>
+                           <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                           <li><a href="#">2</a></li>
+                           <li><a href="#">3</a></li>
+                           <li><a href="#">4</a></li>
+                           <li><a href="#">5</a></li>
+                           <li><a href="#">»</a></li>
+                        </ul>
+                        <span></span>
+                     </div>
+                  </div>
+
+                 
+                   
+                 
+               </div>
+               <div class="col-md-3">
+                  <aside>
+                     <div class="heading-block font-blod">
+                        <h3>Most searched profile</h3>
+                     </div>
+                     <div class="searched-packages">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-12">
+                              <div class="searched-p-name">
+                                 <h3>Diwali Packages</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-12">
+                              <span class="searched-price"><i class="fa-rupee fa"></i> 1200</span>
+                           </div>
+                           <div class="col-md-6 offset-md-6 col-sm-12 offset-sm-0">
+                              <img src="images/ice-blue-medical-lab.png" class="img-fluid pck-image" />
+                           </div>
+                        </div>
+                        <a href="#"></a>
+                     </div>
+                     <div class="searched-packages">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-12">
+                              <div class="searched-p-name">
+                                 <h3>Diwali Packages</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-12">
+                              <span class="searched-price"><i class="fa-rupee fa"></i> 1200</span>
+                           </div>
+                           <div class="col-md-6 offset-md-6 col-sm-12 offset-sm-0">
+                              <img src="images/ice-blue-medical-lab.png" class="img-fluid pck-image" />
+                           </div>
+                        </div>
+                        <a href="#"></a>
+                     </div>
+
+                      <div class="searched-packages">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-12">
+                              <div class="searched-p-name">
+                                 <h3>Diwali Packages</h3>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-12">
+                              <span class="searched-price"><i class="fa-rupee fa"></i> 1200</span>
+                           </div>
+                           <div class="col-md-6 offset-md-6 col-sm-12 offset-sm-0">
+                              <img src="images/ice-blue-medical-lab.png" class="img-fluid pck-image" />
+                           </div>
+                        </div>
+                        <a href="#"></a>
+                     </div>
+                  </aside>
+                  <aside>
+                     <div class="heading-block  font-blod">
+                        <h3>Free home collection</h3>
+                     </div>
+                     <div class="related-links">
+                        <ul>
+                           <li><a href="#">Hospital(213)</a></li>
+                           <li><a href="#">labs(122)</a></li>
+                           <li><a href="#">Gym(0)</a></li>
+                        </ul>
+                     </div>
+                  </aside>
+                  <aside>
+                     <div class="heading-block  font-blod">
+                        <h3>Test at home</h3>
+                     </div>
+                     <ul class="lab-list">
+                        <li><a href="#">obc 1</a></li>
+                        <li><a href="#">hdbs 1</a></li>
+                        <li><a href="#">obc 1</a></li>
+                        <li><a href="#">hdbs 1</a></li>
+                        <li><a href="#">obc 1</a></li>
+                     </ul>
+                     <div class="col-md-12">
+                        <div class="form-group search-test">
+                           <input type="text" name="" value="" placeHolder="Search your test" class="form-control" />
+                           <a href="#"><i class="fa-search fa"></i></a>
+                        </div>
+                     </div>
+                  </aside>
+                  <aside>
+                     <div class="adv-heading">
+                        <h3>Adverisement</h3>
+                     </div>
+                     <div id="Advertisment-oval" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img src="images/nirog-india-advertisements.jpg" class="img-fluid" width="100%" />
+                        </div>
+                        <div class="item">
+                           <img src="images/nirog-india-advertisements.jpg" class="img-fluid" width="100%" />
+                        </div>
+                        <div class="item">
+                           <img src="images/nirog-india-advertisements.jpg" class="img-fluid" width="100%" />
+                        </div>
+                     </div>
+                  </aside>
+                  <aside style="border:0;">
+                     <div class="heading-block  font-blod">
+                        <h3>Popular article</h3>
+                     </div>
+                     <div id="popular-post" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="recent-post-side">
+                              <img src="images/blog/nirog-india-popular-post.jpg" />
+                              <div class="details">
+                                 <h4>Latest News Post</h4>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text. </p>
+                              </div>
+                              <div class="date date168"><span>10 Feb 2019</span></div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="recent-post-side">
+                              <img src="images/blog/nirog-india-popular-post.jpg" />
+                              <div class="details">
+                                 <h4>Latest News Post</h4>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text. </p>
+                              </div>
+                              <div class="date date168"><span>10 Feb 2019</span></div>
+                           </div>
+                        </div>
+                  </aside>
+                  </div>
+               </div>
+            </div>
+      </section>
+      <!---our services--->
+      <section id="other-services">
+      <div class="container">
+      <div class="row">
+      <div  class="col-md-12">
+      <div class="heading-white text-center">
+      <h3 class="font-uppercase">Our Other Services</h3>
+      </div>
+      </div>
+      <div id="owl-carousel-5" class="owl-carousel owl-theme">
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/compare-and-get-best-medicine-on-nirog-india.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Other Medicine
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/online-book-doctor-appointment.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Book Doctor Appointment
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/health-care-products-on-nirog-india.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Health Care  Product New
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/compare-hospitals-and-clinics-online.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Compare Hospitals and Clinics
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/nirog-india-provide-to-compare-gym-spa-and-yoga-center-in-your-city.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Compare Gym / Spa / Yaga Center
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/nirog-india-provide-free-ambulance.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      Free Ambulance
+      </div>
+      </div>
+      </div>
+      <div class="item">
+      <div class="icon">
+      <div class="icon-block">
+      <img src="images/icon/easy-return-within-45-days-on-nirog-india.png" alt="" title="" />
+      </div>
+      <div class="Name">
+      45 Days Returns
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!---footer--->
+      <footer>
+      <div class="container">
+      <div class="row">
+      <div class="col-md-3">
+      <div class="social-likes" style="margin-top:20px;">
+      <img src="images/facebook-likes.png" class="img-fluid" />
+      </div>
+      </div>
+      <div class="col-md-2">
+      <div class="footer-heding">
+      <h3>Explore</h3>
+      </div>
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Porfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      </ul>
+      </div>
+      <div class="col-md-2">
+      <div class="footer-heding">
+      <h3>Browse</h3>
+      </div>
+      <ul>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Press &amp; Media</a></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      </div>
+      <div class="col-md-2">
+      <div class="footer-heding">
+      <h3>Contact us</h3>
+      </div>
+      <p>Nirog India Always Street 0-X - 125 - Delhi</p>
+      <strong>Phone:</strong>
+      <p>879-6347-378</p>
+      <p>879-6347-378</p>
+      <p>879-6347-378</p>
+      <p></p>
+      </div>
+      <div class="col-md-3">
+      <div class="footer-heding">
+      <h3>Connect with us</h3>
+      </div>
+      <ul class="social">
+      <li><a href="#"><i class="fa-facebook fa"></i></a></li>
+      <li><a href="#"><i class="fa-twitter fa"></i></a></li>
+      <li><a href="#"><i class="fa-google-plus fa"></i></a></li>
+      <li><a href="#"><i class=" fa-pinterest fa"></i></a></li>
+      <li><a href="#"><i class="fa-linkedin fa"></i></a></li>
+      <li><a href="#"><i class="fa-instagram fa"></i></a></li>
+      </ul>
+      <div class="footer-heding" style="margin-top:10px;">
+      <h3>Online Payment Option</h3>
+      </div>
+      <img src="images/pay-pal.png" class="img-fluid" />
+      <div class="pay-with"><span> Pay Now With</span> <img src="images/payumoney.png" alt="" title="" class="img-fluid" /></div>
+      </div>
+      </div>
+      </div>
+      </footer>
+      <!---bottom footer--->
+      <section class="footer-bottom">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+      <div class="copyright"><p><i class="fa-copyright fa"></i> Copyright 2019 Nirog India. All Right Reserved</p></div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+       <!--Compare Package List Bottom-->
+      <div class="compare-list">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-4">
+      <div class="row">
+      <div class="col-md-3">
+      <div class="advisor-icon">
+      <img src="images/icon/help-icon.png" class="img-fluid" />
+      </div>
+      </div>
+      <div class="col-md-9">
+      <div class="advisor">
+      <h3><span>Your Advisor:</span>Prashant Verma</h3>
+      <p>We have assigned Prashant Verma as an advisor for you.</p>
+      <p>Deepak has helped <span>5103 customers</span> so far.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="c-item-block">
+      <ul>
+      <li>
+      <div class="compare-pack">
+      <h3>Medical on a Sell</h3>
+      <span class="price">1399/-</span>
+      <div class="close-pack">
+      <a href="#"><i class="fa-remove fa"></i></a>
+      </div>
+      </div>
+      </li>
+      <li>
+      <div class="compare-pack">
+      <h3>Health Checkup @ Rate</h3>
+      <span class="price">1399/-</span>
+      <div class="close-pack">
+      <a href="#"><i class="fa-remove fa"></i></a>
+      </div>
+      </div>
+      </li>
+      <li>
+      <div class="single-package">
+      <h3>Add to Compare</h3>
+      </div>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div class="col-md-2">
+      <div class="remove-compare">
+      <a href="#" class="compare-btn"> Compare Now</a>
+      <a href="#" class="Remove-all-btn"><i class="fa-remove fa"></i> Remove All</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--Compare List Bottom-->
+
+      </div>
+      <!--end content wraper--->
+      <!---all java script resources--->
+      <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+      <script src="js/owl.carousel.js" type="text/javascript"></script>
+       <script src="js/menu.js" type="text/javascript"></script>
+       <!---All Carousel script-->
+      <script>
+          $(document).ready(function () {
+              var owl = $('#owl-carousel-5');
+              owl.owlCarousel({
+                  margin: 10,
+                  nav: false,
+                  loop: true,
+                  dots: false,
+                  autoplay: false,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      600: {
+                          items: 3
+                      },
+                      1000: {
+                          items: 7
+                      }
+                  }
+              })
+          })
+
+          $(document).ready(function () {
+              var owl = $('#Advertisment-oval');
+              owl.owlCarousel({
+                  margin: 0,
+                  nav: false,
+                  loop: true,
+                  autoplay: true,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      600: {
+                          items: 1
+                      },
+                      1000: {
+                          items: 1
+                      }
+                  }
+              })
+          })
+
+          $(document).ready(function () {
+              var owl = $('#popular-post');
+              owl.owlCarousel({
+                  margin: 10,
+                  nav: true,
+                  loop: false,
+                  dots: false,
+                  autoplay: false,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      600: {
+                          items: 1
+                      },
+                      1000: {
+                          items: 1
+                      }
+                  }
+              })
+          })
+
+          $(document).ready(function () {
+              var owl = $('#ecommerce-product');
+              owl.owlCarousel({
+                  margin: 0,
+                  nav: false,
+                  loop: true,
+                  autoplay: true,
+                  dots: false,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      600: {
+                          items: 1
+                      },
+                      1000: {
+                          items: 1
+                      }
+                  }
+              })
+          })
+      </script>
+     
+     <!--Compare bottom js--->
+     <script>
+         $(".compare-list").animate({ bottom: '-200px' });
+         $(".coupon_question").click(function () {
+             if ($(this).is(":checked")) {
+                 $(".compare-list").css({ display: 'block' });
+                 $(".compare-list").animate({ bottom: '0px' });
+             } else {
+                 $(".compare-list").animate({ bottom: '-200px' });
+             }
+         });
+      </script>
+
+
+     <!--filter dropdown select jquery-->
+      <script>
+          var x, i, j, selElmnt, a, b, c;
+          /* Look for any elements with the class "custom-select": */
+          x = document.getElementsByClassName("custom-select1");
+          for (i = 0; i < x.length; i++) {
+              selElmnt = x[i].getElementsByTagName("select")[0];
+              /* For each element, create a new DIV that will act as the selected item: */
+              a = document.createElement("DIV");
+              a.setAttribute("class", "select-selected");
+              a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+              x[i].appendChild(a);
+              /* For each element, create a new DIV that will contain the option list: */
+              b = document.createElement("DIV");
+              b.setAttribute("class", "select-items select-hide");
+              for (j = 1; j < selElmnt.length; j++) {
+                  /* For each option in the original select element,
+                  create a new DIV that will act as an option item: */
+                  c = document.createElement("DIV");
+                  c.innerHTML = selElmnt.options[j].innerHTML;
+                  c.addEventListener("click", function (e) {
+                      /* When an item is clicked, update the original select box,
+                      and the selected item: */
+                      var y, i, k, s, h;
+                      s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                      h = this.parentNode.previousSibling;
+                      for (i = 0; i < s.length; i++) {
+                          if (s.options[i].innerHTML == this.innerHTML) {
+                              s.selectedIndex = i;
+                              h.innerHTML = this.innerHTML;
+                              y = this.parentNode.getElementsByClassName("same-as-selected");
+                              for (k = 0; k < y.length; k++) {
+                                  y[k].removeAttribute("class");
+                              }
+                              this.setAttribute("class", "same-as-selected");
+                              break;
+                          }
+                      }
+                      h.click();
+                  });
+                  b.appendChild(c);
+              }
+              x[i].appendChild(b);
+              a.addEventListener("click", function (e) {
+                  /* When the select box is clicked, close any other select boxes,
+                  and open/close the current select box: */
+                  e.stopPropagation();
+                  closeAllSelect(this);
+                  this.nextSibling.classList.toggle("select-hide");
+                  this.classList.toggle("select-arrow-active");
+              });
+          }
+
+          function closeAllSelect(elmnt) {
+              /* A function that will close all select boxes in the document,
+              except the current select box: */
+              var x, y, i, arrNo = [];
+              x = document.getElementsByClassName("select-items");
+              y = document.getElementsByClassName("select-selected");
+              for (i = 0; i < y.length; i++) {
+                  if (elmnt == y[i]) {
+                      arrNo.push(i)
+                  } else {
+                      y[i].classList.remove("select-arrow-active");
+                  }
+              }
+              for (i = 0; i < x.length; i++) {
+                  if (arrNo.indexOf(i)) {
+                      x[i].classList.add("select-hide");
+                  }
+              }
+          }
+
+          /* If the user clicks anywhere outside the select box,
+          then close all select boxes: */
+          document.addEventListener("click", closeAllSelect);
+      </script>
+   </body>
+</html>
